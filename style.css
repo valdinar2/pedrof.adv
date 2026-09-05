@@ -309,6 +309,26 @@ input, textarea {
   margin-bottom: 0.6rem;
 }
 
+.attachment-list {
+  list-style: none;
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.attachment-list a {
+  color: var(--blue);
+  font-size: 0.85rem;
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+input[type="file"] {
+  padding: 0.5rem;
+  background-color: var(--white);
+}
+
 .modal {
   display: none;
   position: fixed;
